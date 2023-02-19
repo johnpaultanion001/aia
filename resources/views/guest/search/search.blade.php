@@ -2,7 +2,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light navbar fixed-top">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('search') }}"><img src="{{ asset('public/assets/img/ekyc-logo.png') }}" alt="Logo" class="the-logo"> EKYC</a>
+                <a class="navbar-brand" href="{{ url('search') }}"><img src="{{ asset('/assets/img/ekyc-logo.png') }}" alt="Logo" class="the-logo"> EKYC</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa-solid fa-bars"></i>
                 </button>
@@ -27,7 +27,7 @@
 @section('content')
 <style>
     body{
-        background-image: url('{{ asset('public/assets/img/bg.jpg') }}');
+        background-image: url('{{ asset('/assets/img/bg.jpg') }}');
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
@@ -42,15 +42,30 @@
         height: 50px !important;
         object-fit: scale-down !important;
     }
+    body {
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-image: linear-gradient(0deg, #d31145, #373e81);
+    }
+    .bg-light {
+        background: #373e81;
+        background-color: #000000 !important;
+        background-image: linear-gradient(180deg, #000000 0%, #2c2f7c 100%);
+    }
+    .menubtn {
+        background: linear-gradient(180deg, #373e81 0%, #2c2f7c 100%);
+    }
+
 </style>
 <section class="search-header py-5 mt-5">
     <div class="container py-5">
         <div class="row">
             <div class="col-12">
                 <div class="text-center mb-4">
-                    <img src="{{ asset('public/assets/img/ekyc-logo.png') }}" alt="Logo" class="admin-logo">
+                    <img src="{{ asset('/assets/img/ekyc-logo.png') }}" alt="Logo" class="admin-logo">
                     <h5>VERIFY BEFORE YOU BUY</h5>
-                    <h1 class="m-0">DTI CERTIFIED PRODUCTS</h1>
+                    <h1 class="m-0">BPI-AIA CERTIFIED PRODUCTS</h1>
                     <h3>KEEPING YOU SAFE WHEN BUYING ONLINE</h3>
                 </div>
                 <div class="card search-card">

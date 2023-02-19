@@ -60,13 +60,13 @@
         </div>
         <div class="d-flex message-left">
             <img src="https://i.imgur.com/sk5VTNb.jpg" class="prod-image rounded-circle" alt="">
-            <p>it's still available</p>
+            <p>Hi! I can offer a custom insurance for you.</p>
         </div>
         <div class="msg-payment">
-            <em>Payment made easy with UnionBank</em>
-            <a href="{{ route('unionbank') }}" class="btn btn-payment mb-2">Pay via UnionBank</a>
-            <a href="#" class="btn btn-payment2 mb-1">Pay via Cash</a>
-            <a href="#" class="btn btn-payment3 mb-1">Report a Problem</a>
+            <em>Payment made easy with BPI</em>
+            <a href="{{ route('unionbank') }}" class="btn btn-payment mb-2">Pay via BPI</a>
+            <a href="#" class="btn btn-payment2 mb-2">Pay via Cash</a>
+            <a href="{{ route('search') }}" class="btn btn-payment3 mb-2" target="_blank">Verify this seller</a>
         </div>
     </div>
     <div class="chat-footer py-3 px-3">
