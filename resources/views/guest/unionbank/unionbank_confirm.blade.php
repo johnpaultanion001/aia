@@ -1,12 +1,12 @@
 @extends('layouts.guest')
 @section('content')
 <div class="ub-header">
-    <h1>UnionBank Linking</h1>
+    <h1>BPI Linking</h1>
 </div>
 <div class="container ub">
     <div class="row">
         <div class="col-12 mx-auto">
-            <img src="public/assets/marketplace/img/uborange.svg" class="ub-logo d-block mx-auto" alt="Logo">
+            <img src="/assets/marketplace/img/bpi-aia-logo.png" class="bpi-logo d-block mx-auto" alt="Logo">
             <h3>Confirm Your Online Payment</h3>
         </div>
         <div class="col-10 col-sm-7 col-md-7 col-lg-4 mx-auto mt-3">
@@ -14,7 +14,7 @@
                 <div class="col-12">
                     <p class="ub-small-p">You successfully paid</p>
                     <h2 class="my-3 text-center">PHP 10,000.00</h2>
-                    <p class="ub-small-p">using your UnionBank account</p>
+                    <p class="ub-small-p">using your BPI account</p>
                     <br>
                     <br>
                     <br>

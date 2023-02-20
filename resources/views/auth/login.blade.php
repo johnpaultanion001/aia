@@ -28,6 +28,13 @@
         font-weight: 700;
         color: #2c2f7c;
     }
+    .bg-gradient-primary {
+        background-image: linear-gradient(180deg, #2c2f7c 10%, #224abe 100%);
+        background-image: linear-gradient(0deg, #d31145, #373e81);
+    }
+    button.btn.btn-primary.btn-user.btn-block {
+        background: linear-gradient(180deg, #373e81 0%, #2c2f7c 100%);
+    }
 </style>
 <div class="row h-100 justify-content-center align-items-center">
     <div class="col-xl-6 col-lg-6 col-md-9">
@@ -39,7 +46,7 @@
                     <div class="col-lg-12">
                         <div class="p-5">
                             <div class="text-center">
-                                <img src="{{ asset('public/assets/img/ekyclogo.png') }}" alt="Logo" class="admin-logo mb-2">
+                                <img src="{{ asset('/assets/img/ekyclogo.png') }}" alt="Logo" class="admin-logo mb-2">
                                 <p class="text-danger" id="text_warning">
                                 </p>
                             </div>
